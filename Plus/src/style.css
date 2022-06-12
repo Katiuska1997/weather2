@@ -1,0 +1,200 @@
+body.main {
+  background-image: url("https://funart.pro/uploads/posts/2021-04/1617481464_16-p-oboi-voskhod-na-more-16.jpg");
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
+
+img {
+  width: 1350px;
+  height: 700px;
+  display: block;
+  margin: 70px auto;
+  opacity: 0.6;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+div.heading {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -700px;
+}
+
+#celsius-link  {
+  color: black;
+}
+ #fahrenheit-link {
+  color: black;
+}
+.search-bar {
+  width: 350px;
+  padding: 5px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+  text-align: center;
+  border: none;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.search-button {
+  padding: 10px 22px;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: rgb(54, 53, 53, 0.158);
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  transition: all 0.15s ease-in-out;
+  display: block;
+  margin: 20px 0px;
+  text-align: center;
+   
+   
+}
+
+.search-button:hover {
+  background-color: rgb(168, 48, 11);
+  box-shadow: 2px 2px 6px rgba(54, 53, 53, 0.158);
+  color: black;
+}
+
+.city-content {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -650px;
+   
+  float: left;
+ 
+  
+}
+
+.city {
+  padding: 10px 12px;
+  margin: 10px 50px;
+  font-size: 35px;
+  font-weight: 700;
+  border: none;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+   
+  background: linear-gradient(to top, #292f38 0%, #e44c05 100%);
+}
+
+div.day-time,
+div.date {
+  font-size: 25px;
+  font-weight: 500;
+  
+}
+
+.current-day {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.weather-content {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -620px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 10px;
+ 
+}
+
+.weather-icon {
+  font-size: 70px;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+
+.weather-description {
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 10px;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.temp {
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.weather-details {
+  text-align: center;
+  position: relative;
+  float: right;
+  left: 35px;
+  top: -630px;
+  font-weight: 500;
+  line-height: 40px;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.next-5-days-container {
+  position: relative;
+  text-align: center;
+  align-items: center;
+  top: -530px;
+  
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+   
+ 
+  font-weight: 500;
+  line-height: 40px;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.col-sm {
+  border: 0.5px solid gray;
+  border-radius: 10px;
+  background: linear-gradient(to top, #0c3272 0%, #791c9e 100%);
+  margin-right: 20px;
+  border: none;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.col-sm:hover {
+  background: linear-gradient(to top, #dd4f23 0%, #e1e4e4 100%);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  color: black;
+}
+
+.day {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-weight: bold;
+  opacity: 0.4;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.details {
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.temperature {
+  font-style: italic;
+  font-weight: 500;
+   
+}
