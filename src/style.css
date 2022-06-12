@@ -198,3 +198,14 @@ div.date {
   font-weight: 500;
    
 }
+.end{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  top: -500px;
+  color: #791c9e;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+   
+}
